@@ -1,23 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Camera, { DEVICE, FACING_MODE, PLACEMENT } from 'react-camera-ios';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Camera
+          device={DEVICE.TAB}
+          facingMode={FACING_MODE.ENVIRONMENT}
+          placement={PLACEMENT.CONTAIN}
+          quality="1"
+          onError={(error) => console.log(error)}
+          onTakePhoto={(dataUrl) => console.log(dataUrl)}
+        />
       </header>
     </div>
   );
