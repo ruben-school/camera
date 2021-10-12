@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/camera/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/camera/static/js/main.03123ac1.chunk.js",
-    "main.js.map": "/camera/static/js/main.03123ac1.chunk.js.map",
+    "main.js": "/camera/static/js/main.a49aa94a.chunk.js",
+    "main.js.map": "/camera/static/js/main.a49aa94a.chunk.js.map",
     "runtime-main.js": "/camera/static/js/runtime-main.6235ee77.js",
     "runtime-main.js.map": "/camera/static/js/runtime-main.6235ee77.js.map",
     "static/css/2.beec5ec6.chunk.css": "/camera/static/css/2.beec5ec6.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.beec5ec6.chunk.css",
     "static/js/2.55410b18.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.03123ac1.chunk.js"
+    "static/js/main.a49aa94a.chunk.js"
   ]
 }
