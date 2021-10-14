@@ -1,6 +1,7 @@
 // https://www.raymondcamden.com/2018/10/05/storing-retrieving-photos-in-indexeddb
 let db;
 let dbVersion = 1;
+let hackKey = 0;
 
 document.addEventListener('DOMContentLoaded', () => {
   console.log('dom content loaded');
@@ -35,7 +36,8 @@ function initDb() {
  * @param {event} e - event object with the actual image file in e.target.files[0]
  */
 function doFile(e) {
-  console.log('change event fired for input field', e.target.result);
+  hackKey += 1;
+  console.log('change event fired for input field');
   let file = e.target.files[0];
   var reader = new FileReader();
   //				reader.readAsDataURL(file);
@@ -68,7 +70,7 @@ function doImageTest() {
 
   let trans = db.transaction(['cachedForms'], 'readonly');
   //hard coded id
-  let req = trans.objectStore('cachedForms').get(1);
+  let req = trans.objectStore('cachedForms').get(hackKey);
   req.onsuccess = function (e) {
     let record = e.target.result;
     console.log('get success', record);
