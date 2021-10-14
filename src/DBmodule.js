@@ -30,15 +30,18 @@ function initDb() {
   };
 }
 
+/**
+ * Event handler to catch the file, transform it to binary code and save it in IndexedDB
+ * @param {event} e - event object with the actual image file in e.target.files[0]
+ */
 function doFile(e) {
-  console.log('change event fired for input field');
+  console.log('change event fired for input field', e.target.result);
   let file = e.target.files[0];
   var reader = new FileReader();
   //				reader.readAsDataURL(file);
   reader.readAsBinaryString(file);
 
   reader.onload = function (e) {
-    //alert(e.target.result);
     let bits = e.target.result;
     let ob = {
       created: new Date(),
