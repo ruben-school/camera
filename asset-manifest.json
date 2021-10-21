@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/camera/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/camera/static/js/main.5e2a950b.chunk.js",
-    "main.js.map": "/camera/static/js/main.5e2a950b.chunk.js.map",
-    "runtime-main.js": "/camera/static/js/runtime-main.5c4b041a.js",
-    "runtime-main.js.map": "/camera/static/js/runtime-main.5c4b041a.js.map",
+    "main.css": "/camera/static/css/main.2db7f39e.chunk.css",
+    "main.js": "/camera/static/js/main.4f62bb72.chunk.js",
+    "main.js.map": "/camera/static/js/main.4f62bb72.chunk.js.map",
+    "runtime-main.js": "/camera/static/js/runtime-main.bd131381.js",
+    "runtime-main.js.map": "/camera/static/js/runtime-main.bd131381.js.map",
     "static/css/2.beec5ec6.chunk.css": "/camera/static/css/2.beec5ec6.chunk.css",
-    "static/js/2.6706bf04.chunk.js": "/camera/static/js/2.6706bf04.chunk.js",
-    "static/js/2.6706bf04.chunk.js.map": "/camera/static/js/2.6706bf04.chunk.js.map",
-    "static/js/3.08cd4970.chunk.js": "/camera/static/js/3.08cd4970.chunk.js",
-    "static/js/3.08cd4970.chunk.js.map": "/camera/static/js/3.08cd4970.chunk.js.map",
+    "static/js/2.bc88c14e.chunk.js": "/camera/static/js/2.bc88c14e.chunk.js",
+    "static/js/2.bc88c14e.chunk.js.map": "/camera/static/js/2.bc88c14e.chunk.js.map",
+    "static/js/3.2e751bac.chunk.js": "/camera/static/js/3.2e751bac.chunk.js",
+    "static/js/3.2e751bac.chunk.js.map": "/camera/static/js/3.2e751bac.chunk.js.map",
     "index.html": "/camera/index.html",
     "service-worker.js": "/camera/service-worker.js",
     "service-worker.js.map": "/camera/service-worker.js.map",
     "static/css/2.beec5ec6.chunk.css.map": "/camera/static/css/2.beec5ec6.chunk.css.map",
-    "static/css/main.6dea0f05.chunk.css.map": "/camera/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.6706bf04.chunk.js.LICENSE.txt": "/camera/static/js/2.6706bf04.chunk.js.LICENSE.txt"
+    "static/css/main.2db7f39e.chunk.css.map": "/camera/static/css/main.2db7f39e.chunk.css.map",
+    "static/js/2.bc88c14e.chunk.js.LICENSE.txt": "/camera/static/js/2.bc88c14e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5c4b041a.js",
+    "static/js/runtime-main.bd131381.js",
     "static/css/2.beec5ec6.chunk.css",
-    "static/js/2.6706bf04.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.5e2a950b.chunk.js"
+    "static/js/2.bc88c14e.chunk.js",
+    "static/css/main.2db7f39e.chunk.css",
+    "static/js/main.4f62bb72.chunk.js"
   ]
 }
